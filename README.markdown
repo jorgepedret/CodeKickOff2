@@ -5,7 +5,7 @@ There are tons of new cool technologies out there that are helping us develop fa
 CodeKickOff lets you enter your project’s settings and choose the technologies you work with. Code Kick Off will create a .zip file with a set of files ready to be deployed immediately.
 
 
-*Forking Documentation*
+***Forking Documentation***
 
 Forking CodeKickOff allows you to:
 - Implement your own features
