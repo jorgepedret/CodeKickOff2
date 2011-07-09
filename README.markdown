@@ -9,26 +9,6 @@ CodeKickOff lets you enter your project’s settings and choose the technologies
 
 Forking CodeKickOff allows you to:
 
-<<<<<<< HEAD
-**Files**
-
-/config.rb 		# CodeKickOff is built using Compass, this is the config.rb file<br />
-/create.php 		# Contains the options form that lets you choose the technologies that you want to work with
-/css/ 			# Contains all the stylesheet files for the interface
-/functions.php 		# WordPress main functions file
-/header.php 		# WordPress main heaer file
-/img/ 			# Contains all the images used in the site
-/inc/ 			# Contains utility files
-/js/			# Contains all the js files used in the site
-/process2.php		# Processes the form submitted from create.php. This is where the zip file is generated
-/resources/		# These are all the files used to compile the final zip file
-/src/			# Source files for Compass
-
-Please note that CodeKickOff was literaly a weekend project, so the code is far from pretty. Fork me if you create a prettier version of it :-).
-
-
-**Adding a new features**
-=======
 <ul>
 	<li>Implement your own features</li>
 	<li>Integrate it with your favorite Grid System</li>
@@ -88,7 +68,6 @@ Please note that CodeKickOff was literaly a weekend project, so the code is far 
 
 
 <h2>Adding a new features</h2>
->>>>>>> doc changes
 
 You can add your own grid system, cms, or features. Take a look at these files to start:
 
