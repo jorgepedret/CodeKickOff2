@@ -1,0 +1,60 @@
+/*
+ & Columns : 16 
+ & Gutter %: 20% 
+ & MinWidth: 800px
+ & MaxWidth: 1200px
+ */
+.grid_1 { width: 5%; }
+.grid_2 { width: 11.25%; }
+.grid_3 { width: 17.5%; }
+.grid_4 { width: 23.75%; }
+.grid_5 { width: 30%; }
+.grid_6 { width: 36.25%; }
+.grid_7 { width: 42.5%; }
+.grid_8 { width: 48.75%; }
+.grid_9 { width: 55%; }
+.grid_10 { width: 61.25%; }
+.grid_11 { width: 67.5%; }
+.grid_12 { width: 73.75%; }
+.grid_13 { width: 80%; }
+.grid_14 { width: 86.25%; }
+.grid_15 { width: 92.5%; }
+.grid_16 { width: 98.75%; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16 {
+	margin-left: 0.625%;
+	margin-right: 0.625%;
+	float: left;
+	display: block;
+}
+
+.alpha{margin-left:0px;}
+.omega{margin-right:0px;}
+
+.container{
+	min-width: 800px; 
+	max-width: 1200px; 
+	margin: auto;
+}
+
+/* @
+ * tinyfluidgrid.com
+ & girlfriendnyc.com
+ */
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}

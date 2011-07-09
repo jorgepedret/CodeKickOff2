@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('../fonts/coolvetica_rg-webfont.eot');
+  src: local('☺'), url('../fonts/coolvetica_rg-webfont.woff') format('woff'), url('../fonts/coolvetica_rg-webfont.ttf') format('truetype'), url('../fonts/coolvetica_rg-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('../fonts/droidserif-bold-webfont.eot');
+  src: local('☺'), url('../fonts/droidserif-bold-webfont.woff') format('woff'), url('../fonts/droidserif-bold-webfont.ttf') format('truetype'), url('../fonts/droidserif-bold-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('../fonts/droidserif-bolditalic-webfont.eot');
+  src: local('☺'), url('../fonts/droidserif-bolditalic-webfont.woff') format('woff'), url('../fonts/droidserif-bolditalic-webfont.ttf') format('truetype'), url('../fonts/droidserif-bolditalic-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('../fonts/droidserif-italic-webfont.eot');
+  src: local('☺'), url('../fonts/droidserif-italic-webfont.woff') format('woff'), url('../fonts/droidserif-italic-webfont.ttf') format('truetype'), url('../fonts/droidserif-italic-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('../fonts/droidserif-regular-webfont.eot');
+  src: local('☺'), url('../fonts/droidserif-regular-webfont.woff') format('woff'), url('../fonts/droidserif-regular-webfont.ttf') format('truetype'), url('../fonts/droidserif-regular-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "Lobster 13";
+  src: url('../fonts/lobster_1.3-webfont.eot');
+  src: local('☺'), url('../fonts/lobster_1.3-webfont.woff') format('woff'), url('../fonts/lobster_1.3-webfont.ttf') format('truetype'), url('../fonts/lobster_1.3-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Lekton';
+  src: url('../fonts/lekton-bold-webfont.eot');
+  src: local('☺'), url('../fonts/lekton-bold-webfont.woff') format('woff'), url('../fonts/lekton-bold-webfont.ttf') format('truetype'), url('../fonts/lekton-bold-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lekton';
+  src: url('../fonts/lekton-italic-webfont.eot');
+  src: local('☺'), url('../fonts/lekton-italic-webfont.woff') format('woff'), url('../fonts/lekton-italic-webfont.ttf') format('truetype'), url('../fonts/lekton-italic-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Lekton';
+  src: url('../fonts/lekton-regular-webfont.eot');
+  src: local('☺'), url('../fonts/lekton-regular-webfont.woff') format('woff'), url('../fonts/lekton-regular-webfont.ttf') format('truetype'), url('../fonts/lekton-regular-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin ff-heading{
+	font-family: "Coolvetica", "Verdana", "Lucida Grande", "Arial", "Gill Sans", "Helvetica", sans-serif;
+}
+
+@mixin ff-text{
+	font-family: "Droid Serif", "Georgia", "Times New Roman", "Palatino", "Hoefler Text", "Baskerville", serif;
+}
+@mixin ff-decoration{
+	font-family: "Lobster 13", cursive;
+}
+@mixin ff-mono{
+	font-family: "Lekton", Menlo, Courier New, Courier, Mono, monospace;
+}

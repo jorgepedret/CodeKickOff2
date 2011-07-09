@@ -1,0 +1,138 @@
+#{headers(all)}{
+	line-height: 1.3em;
+	letter-spacing: 0.02em;
+	img{
+		margin:0;
+	}
+}
+h1 {
+	font-size: 60px;
+	margin-bottom: 0.3em;
+}
+h2 {
+	font-size: 30px;
+	margin-bottom: 0.3em;
+	//font-weight: normal;
+}
+h3 {
+	font-size: 24px;
+	margin-bottom: 0.3em;
+}
+h4 {
+	font-size: 18px;
+	margin-bottom: 0.3em;
+}
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+}
+h6 {
+	font-size: 14px;
+	font-weight: normal;
+}
+p {
+	margin: 0 0 1.3em;
+	img.left {
+		@include float-left;
+		margin: 0 1.3em 1.3em 0;
+		padding: 0;
+	}
+	img.right {
+		@include float-right;
+		margin: 0 0 1.3em 1.3em;
+		padding: 0;
+	}
+}
+a {
+	//text-decoration: underline;
+	//@include link-colors($link-color, $link-hover-color, $link-active-color, $link-visited-color, $link-focus-color);
+}
+blockquote {
+	margin: 1.3em;
+	color: $alt_text_color;
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+dfn {
+	font-style: italic;
+	font-weight: bold;
+}
+sup, sub {
+	line-height: 0;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666666;
+}
+address {
+	margin: 0 0 1.5em;
+	font-style: italic;
+}
+del {
+	color: $alt_text_color;
+}
+pre {
+	margin: 1.5em 0;
+	white-space: pre;
+}
+pre, code, tt {
+	@include fixed-width-text;
+}
+li ul, li ol {
+	margin: 0;
+}
+li{
+	margin-bottom: 1.3em;
+}
+ul, ol {
+	margin: 0 1.5em 1.5em 0;
+	padding-left: 3.333em;
+}
+ul {
+	list-style-type: disc;
+}
+ol {
+	list-style-type: decimal;
+}
+dl {
+	margin: 0 0 1.5em 0;
+	dt {
+		font-weight: bold;
+	}
+}
+dd {
+	margin-left: 1.5em;
+}
+table {
+	margin-bottom: 1.4em;
+	width: 100%;
+}
+th {
+	font-weight: bold;
+}
+thead th {
+	background: $blueprint-table-header-color;
+}
+th, td, caption {
+	padding: 4px 10px 4px 5px;
+}
+tr.even td {
+	background: $blueprint-table-stripe-color;
+}
+tfoot {
+	font-style: italic;
+}
+caption {
+	background: $blueprint_background_color;
+}
+.quiet {
+	@include quiet;
+}
+.loud {
+	@include loud;
+}

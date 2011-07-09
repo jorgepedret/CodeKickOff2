@@ -1,0 +1,29 @@
+/* Put all your mixins here */
+@mixin no-box-shadow(){
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+}
+
+@mixin big-button(){
+	display:inline-block;
+	padding: 10px 20px;
+	@include ff-decoration;
+	background: #c4df9b;
+	color: darken(#c4df9b,50%);
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	@include border-radius(5px);
+	text-decoration: none;
+	@include box-shadow(#999, 2px, 2px, 2px);
+	&:hover{
+		background:lighten(#c4df9b,10%);
+		color: lighten(darken(#c4df9b,50%),10%);
+		position: relative;
+		top: 1px;
+		left: 1px;
+		@include box-shadow(#999, 0px, 0px, 1px);
+	}
+}

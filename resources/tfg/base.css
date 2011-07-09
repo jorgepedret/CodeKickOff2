@@ -1,0 +1,26 @@
+/*
+ & Columns : %%general.grid.tfg.columns%% 
+ & Gutter %: %%general.grid.tfg.gutter%% % 
+ & MinWidth: %%general.grid.tfg.minw%% px
+ & MaxWidth: %%general.grid.tfg.maxw%% px
+ */
+%%general.grid.tfg.grid_widths%%
+%%general.grid.tfg.grid_gutters%%
+
+.alpha{margin-left:0px;}
+.omega{margin-right:0px;}
+
+.container{
+	min-width: %%general.grid.tfg.minw%%px; 
+	max-width: %%general.grid.tfg.maxw%%px; 
+	margin: auto;
+}
+
+/* @
+ * tinyfluidgrid.com
+ & girlfriendnyc.com
+ */
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+* html .clearfix,*:first-child+html .clearfix{zoom:1}

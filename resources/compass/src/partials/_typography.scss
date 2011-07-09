@@ -1,0 +1,111 @@
+#{headers(all)}{
+	img{
+		margin:0;
+	}
+}
+h1 {
+	font-size: 60px;
+	margin-bottom: 0.50em;
+}
+h2 {
+	font-size: 35px;
+	margin-bottom: 1em;
+	//font-weight: normal;
+}
+h3 {
+	font-size: 24px;
+	margin-bottom: 1.00em;
+}
+h4 {
+	font-size: 18px;
+	margin-bottom: 1.25em;
+}
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 1.50em;
+}
+h6 {
+	font-size: 14px;
+	font-weight: normal;
+}
+p {
+	margin: 0 0 1.5em;
+	img.left {
+		@include float-left;
+		margin: 1.5em 1.5em 1.5em 0;
+		padding: 0;
+	}
+	img.right {
+		@include float-right;
+		margin: 1.5em 0 1.5em 1.5em;
+		padding: 0;
+	}
+}
+a {
+	text-decoration: none;
+}
+blockquote {
+	margin: 1.5em;
+	color: $alt_text_color;
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+dfn {
+	font-style: italic;
+	font-weight: bold;
+}
+sup, sub {
+	line-height: 0;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666666;
+}
+address {
+	margin: 0 0 1.5em;
+	font-style: italic;
+}
+del {
+	color: $alt_text_color;
+}
+pre {
+	margin: 1.5em 0;
+	white-space: pre;
+}
+pre, code, tt {
+	@include fixed-width-text;
+}
+li ul, li ol {
+	margin: 0;
+}
+ul, ol {
+	margin: 0 1.5em 1.5em 0;
+	padding-left: 3.333em;
+}
+ul {
+	list-style-type: disc;
+}
+ol {
+	list-style-type: decimal;
+}
+dl {
+	margin: 0 0 1.5em 0;
+	dt {
+		font-weight: bold;
+	}
+}
+dd {
+	margin-left: 1.5em;
+}
+table {
+	margin-bottom: 1.4em;
+	width: 100%;
+}
+th {
+	font-weight: bold;
+}

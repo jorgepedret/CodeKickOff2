@@ -1,0 +1,41 @@
+/*
+I like to put here my font face declarations. I also like to define 4 mixins:
+
+ff-text 		: The default font to display regular text
+ff-heading 		: The default font to display heading text
+ff-decorative 	: The default font to display decorative text
+ff-mono			: The default font to display code (monospaced)
+*/
+
+/*
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('../fonts/coolvetica_rg-webfont.eot');
+  src: local('☺'), url('../fonts/coolvetica_rg-webfont.woff') format('woff'), url('../fonts/coolvetica_rg-webfont.ttf') format('truetype'), url('../fonts/coolvetica_rg-webfont.svg#webfontX4pGz9fc') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin ff-heading{
+	font-family: "Coolvetica", "Verdana", "Lucida Grande", "Arial", "Gill Sans", "Helvetica", sans-serif;
+}
+*/
+
+
+
+/*
+Change this mixins to your preference
+*/
+
+@mixin ff-text{
+	font-family: sans-serif;
+}
+@mixin ff-heading{
+	font-family: serif;
+}
+@mixin ff-decorative{
+	font-family: cursive;
+}
+@mixin ff-mono{
+	font-family: monospace;
+}
