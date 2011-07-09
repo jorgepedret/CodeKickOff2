@@ -15,7 +15,7 @@ Forking CodeKickOff allows you to:
 
 **Files**
 
-/config.rb 		# CodeKickOff is built using Compass, this is the config.rb file
+/config.rb 		# CodeKickOff is built using Compass, this is the config.rb file<br />
 /create.php 		# Contains the options form that lets you choose the technologies that you want to work with
 /css/ 			# Contains all the stylesheet files for the interface
 /functions.php 		# WordPress main functions file
